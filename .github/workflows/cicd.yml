@@ -60,7 +60,7 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests
-        run: npx playwright tests
+        run: npx playwright test
 
   deploy:
     name: Deploy (mock)
